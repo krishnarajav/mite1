@@ -1,0 +1,11 @@
+//Program to reverse a number
+#include <stdio.h>
+int main()
+{
+	long int n, reverse = 0;
+	int len;
+	scanf("%ld%n", &n, &len);
+	while(reverse = reverse * 10 + n % 10, n/=10); // n/=10
+	printf("%0*ld\n",len, reverse);
+	return 0;
+}
